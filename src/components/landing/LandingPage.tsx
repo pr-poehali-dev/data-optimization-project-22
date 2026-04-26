@@ -48,7 +48,7 @@ export default function LandingPage() {
           <button
             key={section.id}
             className={`w-3 h-3 rounded-full my-2 transition-all ${
-              index === activeSection ? 'bg-white scale-150' : 'bg-gray-600'
+              index === activeSection ? 'bg-[#00C2FF] scale-150' : 'bg-gray-600'
             }`}
             onClick={() => handleNavClick(index)}
           />
